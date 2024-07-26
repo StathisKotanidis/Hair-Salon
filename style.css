@@ -127,7 +127,7 @@ table {
 /* General Styling*/
 
 body {
-  height: 100vh;
+  height: 180vh;
   font-family: "Poppins", sans-serif;
 }
 
@@ -192,7 +192,7 @@ nav {
   flex-basis: 10%;
 }
 
-/* Main styling*/
+/* Home styling*/
 
 #home {
   height: 70vh;
@@ -292,3 +292,34 @@ nav {
   cursor: pointer;
   transform: scale(1.2);
 }
+
+/* About section */
+
+#about {
+  height: 30vh;
+  display: flex;
+  background-color: white;
+}
+
+.services,
+.products,
+.beauticians {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+#about h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+#about img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+/* Services section*/
