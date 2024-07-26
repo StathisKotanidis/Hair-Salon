@@ -296,7 +296,7 @@ nav {
 /* About section */
 
 #about {
-  height: 30vh;
+  height: 35vh;
   display: flex;
   background-color: white;
 }
@@ -322,4 +322,48 @@ nav {
   margin: 0 auto;
 }
 
-/* Services section*/
+/* Staff section*/
+
+#staff {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.staff-wrapper {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.staff-wrapper img {
+  width: 320px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.staff-description {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.staff-description span:nth-child(1) {
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+}
+
+.staff-description span:nth-child(2) {
+  font-size: 0.6rem;
+}
+
+/* LOOKBOOK Section*/
