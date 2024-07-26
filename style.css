@@ -1,0 +1,294 @@
+/* CSS  reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* General Styling*/
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nav styling */
+
+nav {
+  height: 5vh;
+  display: flex;
+  background-color: rgba(243, 237, 237, 0.363);
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 10%;
+}
+
+.logo-section img {
+  width: 60%;
+  height: 90%;
+}
+
+.main-nav {
+  flex-basis: 80%;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.main-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-nav a {
+  color: black;
+}
+
+.main-nav a:hover {
+  border-bottom: 2px solid black;
+  transition: 0.2s;
+}
+
+.main-nav i {
+  font-size: 1.4rem;
+}
+
+.main-nav i:hover {
+  cursor: pointer;
+}
+
+.book-online {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 10%;
+}
+
+/* Main styling*/
+
+#home {
+  height: 70vh;
+  background-image: url(images/banner-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.content-container {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.content-wrapper h1 {
+  font-size: 4rem;
+  padding-top: 50px;
+  line-height: 1.2;
+}
+
+.content-wrapper > span {
+  font-size: 0.9rem;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.our-services-wrapper {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 10px;
+}
+
+.our-services-wrapper a {
+  color: white;
+  font-size: 0.7rem;
+}
+
+.special-offer-wrapper {
+  height: 160px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  background-color: black;
+  padding: 30px 20px;
+}
+
+.special-offer-wrapper span {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.special-offer-wrapper p span {
+  font-size: 1.5rem;
+}
+
+.special-offer-wrapper p {
+  font-size: 0.8rem;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.special-offer-wrapper a {
+  width: 70%;
+  background-color: rgba(224, 217, 217, 0.979);
+  color: black;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+
+.special-offer-wrapper a span {
+  color: black;
+}
+
+.right-arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2em;
+}
+
+.right-arrow:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
