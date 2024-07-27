@@ -398,12 +398,12 @@ nav {
 }
 
 .special-offer span {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .special-offer h3 {
   font-size: 1.5rem;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   line-height: 1.4;
 }
 
@@ -472,15 +472,14 @@ nav {
 .lookbook-4 {
   grid-row: 3/4;
   background-color: rgba(0, 0, 0, 0.932);
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lookbook-4 i {
   color: white;
   font-size: 2rem;
-  position: absolute;
-  bottom: 70px;
-  right: 75px;
 }
 
 .lookbook-5 {
