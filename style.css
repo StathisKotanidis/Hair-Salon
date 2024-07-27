@@ -127,7 +127,7 @@ table {
 /* General Styling*/
 
 body {
-  height: 180vh;
+  height: 280vh;
   font-family: "Poppins", sans-serif;
 }
 
@@ -328,6 +328,7 @@ nav {
   height: 50vh;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 30px;
 }
 
 .staff-wrapper {
@@ -366,4 +367,56 @@ nav {
   font-size: 0.6rem;
 }
 
-/* LOOKBOOK Section*/
+/* News Section*/
+
+#news {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.news-wrapper {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  background-image: url("images/offer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.special-offer {
+  width: 30%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 50px;
+}
+
+.special-offer span {
+  padding-bottom: 20px;
+}
+
+.special-offer h3 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  line-height: 1.4;
+}
+
+.special-offer h3 span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.special-offer a {
+  width: 40%;
+  color: white;
+  background-color: black;
+  padding: 15px;
+}
+
+/* Lookbook styling */
