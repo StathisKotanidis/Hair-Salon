@@ -127,7 +127,7 @@ table {
 /* General Styling*/
 
 body {
-  height: 280vh;
+  height: 290vh;
   font-family: "Poppins", sans-serif;
 }
 
@@ -420,3 +420,80 @@ nav {
 }
 
 /* Lookbook styling */
+
+#lookbook {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lookbook-header {
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.lookbook-header h2,
+.lookbook-header span {
+  font-size: 2rem;
+}
+
+.lookbook-header span {
+  font-weight: bold;
+}
+
+.grid-container {
+  width: 30%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.lookbok-1 {
+  grid-row: 1/2;
+}
+
+.lookbook-2 {
+  grid-row: 2/4;
+}
+
+.lookbook-3 {
+  grid-row: 1/3;
+}
+
+.lookbook-4 {
+  grid-row: 3/4;
+  background-color: rgba(0, 0, 0, 0.932);
+  position: relative;
+}
+
+.lookbook-4 i {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 70px;
+  right: 75px;
+}
+
+.lookbook-5 {
+  grid-row: 1/2;
+}
+
+.lookbook-6 {
+  grid-row: 2/4;
+}
+
+.grid-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Contact Styling*/
