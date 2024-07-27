@@ -497,3 +497,49 @@ nav {
 }
 
 /* Contact Styling*/
+
+#contact {
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.925);
+  display: flex;
+  color: white;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section {
+  width: 20%;
+}
+
+.left-section span {
+  font-size: 1.1rem;
+}
+
+.middle-section {
+  flex-basis: 80%;
+  justify-content: space-around;
+}
+
+.middle-section i {
+  font-size: 2rem;
+}
+
+.middle-section i:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.right-section {
+  width: 20%;
+  flex-direction: column;
+}
+
+.right-section span {
+  padding: 5px;
+}
