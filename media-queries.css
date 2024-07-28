@@ -6,9 +6,6 @@
   }
 
   /* Navbar styling for sartphones */
-  nav {
-    height: 10vh;
-  }
 
   .logo-section {
     display: none;
@@ -20,11 +17,13 @@
 
   .main-nav {
     flex-basis: 100%;
+    height: 100%;
   }
 
   .main-nav ul {
     justify-content: space-around;
     font-size: 0.6rem;
+    padding: 5px;
   }
 
   .main-nav i {
@@ -40,7 +39,7 @@
 
   .content-wrapper h1 {
     font-size: 1.4rem;
-    padding: 0;
+    padding: 10px 0 0 0;
   }
 
   .content-wrapper span {
@@ -203,19 +202,15 @@
   }
 }
 
-/* @media (width <= 767px) { */
-/* General styling*/
-/* body {
+@media (min-width: 481px) and (max-width: 600px) {
+  body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  } */
-
-/* Navbar styling for sartphones */
-
-/* nav {
-    height: 10vh;
   }
+
+  /* Navbar styling for sartphones */
+
   .logo-section {
     display: none;
   }
@@ -226,31 +221,33 @@
 
   .main-nav {
     flex-basis: 100%;
+    height: 100%;
   }
 
   .main-nav ul {
     justify-content: space-around;
     font-size: 0.6rem;
+    padding: 5px;
   }
 
   .main-nav i {
     font-size: 1rem;
-  } */
+  }
 
-/* Home section for smartphones*/
+  /* Home section for smartphones*/
 
-/* .content-wrapper {
+  .content-wrapper {
     width: 80%;
-    height: 80%;
-  } */
+    align-items: flex-start;
+  }
 
-/* .content-wrapper h1 {
+  .content-wrapper h1 {
     font-size: 1.4rem;
+    padding: 10px 0 0 0;
   }
 
   .content-wrapper span {
     font-size: 0.7rem;
-    padding-bottom: 20px;
   }
 
   .our-services-wrapper {
@@ -262,15 +259,15 @@
   }
 
   .special-offer-wrapper {
-    height: 120px;
+    height: 40%;
     width: 70%;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 20px 20px 20px 10px;
   }
 
-  .special-offer-wrapper span {
+  .special-offer-wrapper > span {
     font-size: 0.6rem;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
   }
 
   .special-offer-wrapper p {
@@ -280,18 +277,19 @@
   }
 
   .special-offer-wrapper p span {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .special-offer-wrapper a {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 5px;
     width: 70%;
-  } */
+    text-align: center;
+  }
 
-/*About section for smartphones*/
+  /*About section for smartphones*/
 
-/* #about {
+  #about {
     height: 90vh;
     flex-direction: column;
   }
@@ -318,19 +316,24 @@
   }
 
   #about p {
-    font-size: 0.8rem;
-  } */
+    font-size: 1rem;
+    width: 90%;
+  }
 
-/* Staff section for smartphones*/
+  /* Staff section for smartphones*/
 
-/* #staff {
+  #staff {
     height: 210vh;
     flex-direction: column;
-  } */
+  }
 
-/*News section for smartphones*/
+  .staff-description {
+    width: 30%;
+  }
 
-/* #news {
+  /*News section for smartphones*/
+
+  #news {
     height: 120vh;
     align-items: center;
     padding: 0 0 30px 0;
@@ -365,32 +368,33 @@
   }
 
   .special-offer a {
-    width: 70%;
+    width: 60%;
     padding: 10px;
+    text-align: center;
   }
 
   .special-offer a span {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   .special-offer a i {
     font-size: 0.5rem;
-  } */
+  }
 
-/* Lookbook section for smartphones*/
+  /* Lookbook section for smartphones*/
 
-/* .grid-container {
+  .grid-container {
     width: 80%;
-  } */
+  }
 
-/* Contact section for smartphones*/
+  /* Contact section for smartphones*/
 
-/* .left-section {
+  .left-section {
     flex-basis: 40%;
   }
 
   .left-section span {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   .middle-section {
@@ -403,6 +407,6 @@
 
   .right-section {
     flex-basis: 40%;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
-}  */
+}
