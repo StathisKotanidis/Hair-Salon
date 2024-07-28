@@ -1,16 +1,15 @@
-@media (width <= 375px) {
-  /* General styling*/
+@media (min-width: 320px) and (max-width: 480px) {
   body {
-    height: 480vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
 
   /* Navbar styling for sartphones */
-
   nav {
     height: 10vh;
   }
+
   .logo-section {
     display: none;
   }
@@ -36,16 +35,16 @@
 
   .content-wrapper {
     width: 80%;
-    height: 80%;
+    align-items: flex-start;
   }
 
   .content-wrapper h1 {
     font-size: 1.4rem;
+    padding: 0;
   }
 
   .content-wrapper span {
     font-size: 0.7rem;
-    padding-bottom: 20px;
   }
 
   .our-services-wrapper {
@@ -57,15 +56,15 @@
   }
 
   .special-offer-wrapper {
-    height: 120px;
-    width: 55%;
+    height: 40%;
+    width: 70%;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 20px 20px 20px 10px;
   }
 
-  .special-offer-wrapper span {
+  .special-offer-wrapper > span {
     font-size: 0.6rem;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
   }
 
   .special-offer-wrapper p {
@@ -75,13 +74,14 @@
   }
 
   .special-offer-wrapper p span {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .special-offer-wrapper a {
-    font-size: 0.5rem;
+    font-size: 0.3rem;
     padding: 5px;
     width: 100%;
+    text-align: center;
   }
 
   /*About section for smartphones*/
@@ -126,28 +126,33 @@
   /*News section for smartphones*/
 
   #news {
-    padding-top: 10px;
+    height: 120vh;
+    align-items: center;
+    padding: 0 0 30px 0;
   }
 
   .news-wrapper {
     width: 90%;
+    height: 100%;
   }
 
   .special-offer {
     width: 50%;
     height: 100%;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
   .special-offer span {
     font-size: 0.6rem;
+    padding: 0;
     padding-top: 20px;
   }
 
   .special-offer h3 {
     font-size: 0.6rem;
     line-height: 1.2;
-    padding-top: 10px;
+    padding: 0;
+    padding: 10px 0 10px 0;
   }
 
   .special-offer h3 span {
@@ -157,11 +162,11 @@
   .special-offer a {
     width: 70%;
     padding: 10px;
-    margin-bottom: 25px;
+    text-align: center;
   }
 
   .special-offer a span {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   .special-offer a i {
@@ -194,6 +199,210 @@
 
   .right-section {
     flex-basis: 40%;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
 }
+
+/* @media (width <= 767px) { */
+/* General styling*/
+/* body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  } */
+
+/* Navbar styling for sartphones */
+
+/* nav {
+    height: 10vh;
+  }
+  .logo-section {
+    display: none;
+  }
+
+  .book-online {
+    display: none;
+  }
+
+  .main-nav {
+    flex-basis: 100%;
+  }
+
+  .main-nav ul {
+    justify-content: space-around;
+    font-size: 0.6rem;
+  }
+
+  .main-nav i {
+    font-size: 1rem;
+  } */
+
+/* Home section for smartphones*/
+
+/* .content-wrapper {
+    width: 80%;
+    height: 80%;
+  } */
+
+/* .content-wrapper h1 {
+    font-size: 1.4rem;
+  }
+
+  .content-wrapper span {
+    font-size: 0.7rem;
+    padding-bottom: 20px;
+  }
+
+  .our-services-wrapper {
+    width: 70%;
+  }
+
+  .our-services-wrapper a {
+    font-size: 0.5rem;
+  }
+
+  .special-offer-wrapper {
+    height: 120px;
+    width: 70%;
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+
+  .special-offer-wrapper span {
+    font-size: 0.6rem;
+    padding-bottom: 10px;
+  }
+
+  .special-offer-wrapper p {
+    font-size: 0.5rem;
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+
+  .special-offer-wrapper p span {
+    font-size: 1rem;
+  }
+
+  .special-offer-wrapper a {
+    font-size: 0.5rem;
+    padding: 5px;
+    width: 70%;
+  } */
+
+/*About section for smartphones*/
+
+/* #about {
+    height: 90vh;
+    flex-direction: column;
+  }
+
+  .services,
+  .products,
+  .beauticians {
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  #about h2 {
+    font-size: 0.8rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #about img {
+    width: 80px;
+    margin: 0;
+  }
+
+  #about p {
+    font-size: 0.8rem;
+  } */
+
+/* Staff section for smartphones*/
+
+/* #staff {
+    height: 210vh;
+    flex-direction: column;
+  } */
+
+/*News section for smartphones*/
+
+/* #news {
+    height: 120vh;
+    align-items: center;
+    padding: 0 0 30px 0;
+  }
+
+  .news-wrapper {
+    width: 90%;
+    height: 100%;
+  }
+
+  .special-offer {
+    width: 50%;
+    height: 100%;
+    margin-left: 20px;
+  }
+
+  .special-offer span {
+    font-size: 0.6rem;
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .special-offer h3 {
+    font-size: 0.6rem;
+    line-height: 1.2;
+    padding: 0;
+    padding: 10px 0 10px 0;
+  }
+
+  .special-offer h3 span {
+    font-size: 1.1rem;
+  }
+
+  .special-offer a {
+    width: 70%;
+    padding: 10px;
+  }
+
+  .special-offer a span {
+    font-size: 0.6rem;
+  }
+
+  .special-offer a i {
+    font-size: 0.5rem;
+  } */
+
+/* Lookbook section for smartphones*/
+
+/* .grid-container {
+    width: 80%;
+  } */
+
+/* Contact section for smartphones*/
+
+/* .left-section {
+    flex-basis: 40%;
+  }
+
+  .left-section span {
+    font-size: 0.5rem;
+  }
+
+  .middle-section {
+    flex-basis: 20%;
+  }
+
+  .middle-section i {
+    font-size: 1rem;
+  }
+
+  .right-section {
+    flex-basis: 40%;
+    font-size: 0.5rem;
+  }
+}  */
