@@ -80,7 +80,6 @@ nav {
 }
 
 .content-wrapper {
-  border: 1px solid green;
   max-width: 60%;
   display: flex;
   flex-direction: column;
@@ -90,9 +89,9 @@ nav {
 }
 
 .content-wrapper h1 {
+  color: white;
   font-size: 1.7rem;
   line-height: 1.2;
-  color: white;
   font-weight: 200;
   padding: 5em 0 0 0;
 }
@@ -103,11 +102,11 @@ nav {
 }
 
 .our-services-wrapper {
-  max-width: 50%;
+  background-color: black;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
   padding: 10px;
 }
 
@@ -146,11 +145,11 @@ nav {
 }
 
 .special-offer-wrapper a {
-  max-width: 70%;
   background-color: white;
   color: black;
+  width: 60%;
   font-size: 0.4rem;
-  font-weight: bold;
+  text-align: center;
   padding: 4px;
 }
 
@@ -161,11 +160,11 @@ nav {
 }
 
 .right-arrow {
+  color: white;
   position: absolute;
   bottom: 20px;
   right: 20px;
   font-size: 1.5em;
-  color: white;
 }
 
 .right-arrow:hover {
@@ -175,12 +174,34 @@ nav {
 
 /* About section */
 
-/* #about {
-  height: 35vh;
+#about {
+  min-height: 40vh;
   display: flex;
+  flex-direction: column;
   background-color: white;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.info h2 {
+  font-size: 1.1rem;
+}
+
+.info p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.info img {
+  max-width: 80px;
+}
+
+/*
 .services,
 .products,
 .beauticians {
