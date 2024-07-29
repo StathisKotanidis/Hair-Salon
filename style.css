@@ -172,7 +172,7 @@ nav {
   transform: scale(1.2);
 }
 
-/* About section */
+/* About section (mobil design)*/
 
 #about {
   min-height: 40vh;
@@ -201,73 +201,43 @@ nav {
   max-width: 80px;
 }
 
-/*
-.services,
-.products,
-.beauticians {
+/* Staff section (mobile design)*/
+
+#staff {
+  min-height: 140vh;
   display: flex;
   flex-direction: column;
-  width: 30%;
-  text-align: center;
-  padding: 20px 30px;
-}
-
-#about h2 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-weight: 500;
-}
-
-#about img {
-  width: 100px;
-  margin: 0 auto;
-} */
-
-/* Staff section*/
-
-/* #staff {
-  height: 50vh;
-  display: flex;
   justify-content: space-around;
-  padding-bottom: 30px;
 }
 
 .staff-wrapper {
-  flex-basis: 30%;
-  padding: 20px 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: relative;
 }
 
 .staff-wrapper img {
-  width: 90%;
-  height: 90%;
+  min-width: 90%;
+  max-height: 250px;
   border-radius: 5px;
 }
 
 .staff-description {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
   background-color: black;
   color: white;
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  padding: 10px;
   position: absolute;
-  bottom: 5px;
+  padding: 10px;
+  bottom: -30px;
 }
 
-.staff-description span:nth-child(1) {
-  font-size: 1.1rem;
-  padding-bottom: 5px;
+.staff-description span {
+  font-size: 0.7rem;
 }
-
-.staff-description span:nth-child(2) {
-  font-size: 0.6rem;
-} */
 
 /* News Section*/
 

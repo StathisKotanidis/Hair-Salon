@@ -38,6 +38,12 @@
   .info p {
     font-size: 1.2rem;
   }
+
+  /*Staff section*/
+
+  .staff-wraper img {
+    min-width: 100%;
+  }
 }
 
 @media (min-width: 600px) {
@@ -156,9 +162,41 @@
   .info p {
     font-size: 0.9rem;
   }
+
+  /*Staff section*/
+  #staff {
+    min-height: 40vh;
+    flex-direction: row;
+  }
+
+  .staff-wrapper {
+    flex-basis: 30%;
+    justify-content: center;
+  }
+
+  .staff-description {
+    bottom: 5px;
+  }
 }
 
 @media (min-width: 1025px) {
+  /*Navbar styling*/
+  .middle-navbar a {
+    font-size: 1.2rem;
+  }
+
+  .middle-navbar i {
+    font-size: 1.1rem;
+  }
+
+  .rightside-navbar span {
+    font-size: 1.2rem;
+  }
+
+  .rightside-navbar i {
+    font-size: 1.2rem;
+  }
+
   /*Home styling*/
   .our-services-wrapper {
     width: 30%;
@@ -182,3 +220,25 @@
     font-size: 1.1rem;
   }
 }
+
+@media (min-width: 1280px) {
+  /*Navbar styling*/
+  .middle-navbar a {
+    font-size: 1.5rem;
+  }
+
+  .middle-navbar i {
+    font-size: 1.4rem;
+  }
+
+  .rightside-navbar span {
+    font-size: 1.6rem;
+  }
+
+  .rightside-navbar i {
+    font-size: 1.5rem;
+  }
+}
+
+/* @media (min-width: 1536px) {
+} */
