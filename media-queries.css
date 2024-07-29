@@ -157,6 +157,8 @@
 
   .info {
     padding: 10px;
+    justify-content: center;
+    align-items: center;
   }
 
   .info p {
@@ -197,7 +199,15 @@
     font-size: 1.2rem;
   }
 
-  /*Home styling*/
+  /*Home section styling*/
+  .content-wrapper h1 {
+    font-size: 5rem;
+  }
+
+  .content-wrapper span {
+    font-size: 1.6rem;
+  }
+
   .our-services-wrapper {
     width: 30%;
   }
@@ -214,7 +224,7 @@
     font-size: 0.8rem;
   }
 
-  /*Home section */
+  /*About section styling*/
 
   .info p {
     font-size: 1.1rem;
@@ -237,6 +247,23 @@
 
   .rightside-navbar i {
     font-size: 1.5rem;
+  }
+
+  /*Home section styling*/
+  .special-offer-wrapper {
+    max-width: 30%;
+  }
+  .special-offer-wrapper span a {
+    font-size: 1.4rem;
+  }
+
+  .special-offer-wrapper span i {
+    font-size: 1.2rem;
+  }
+
+  /*About section styling*/
+  .info p {
+    font-size: 1.3rem;
   }
 }
 
