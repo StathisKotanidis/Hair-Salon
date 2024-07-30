@@ -26,7 +26,7 @@ li {
   margin-left: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* Navbar styling(mobile design) */
@@ -212,7 +212,6 @@ nav {
 }
 
 .staff-wrapper {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -302,15 +301,16 @@ nav {
 
 /* Lookbook styling */
 
-/* #lookbook {
-  height: 90vh;
+#lookbook {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .lookbook-header {
-  height: 5vh;
+  min-height: 5vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -321,7 +321,7 @@ nav {
 
 .lookbook-header h2,
 .lookbook-header span {
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .lookbook-header span {
@@ -329,13 +329,12 @@ nav {
 }
 
 .grid-container {
-  width: 30%;
-  height: 80%;
+  width: 80%;
+  height: 80vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
-  padding-top: 30px;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1em;
 }
 
 .lookbok-1 {
@@ -343,7 +342,7 @@ nav {
 }
 
 .lookbook-2 {
-  grid-row: 2/4;
+  grid-row: 2/5;
 }
 
 .lookbook-3 {
@@ -351,7 +350,7 @@ nav {
 }
 
 .lookbook-4 {
-  grid-row: 3/4;
+  grid-row: 3/5;
   background-color: rgba(0, 0, 0, 0.932);
   display: flex;
   justify-content: center;
@@ -368,18 +367,19 @@ nav {
 }
 
 .lookbook-6 {
-  grid-row: 2/4;
+  grid-row: 2/5;
 }
 
 .grid-container img {
   width: 100%;
   height: 100%;
-} */
+  object-fit: cover;
+}
 
 /* Contact Styling*/
 
-/* #contact {
-  height: 10vh;
+#contact {
+  min-height: 10vh;
   background-color: rgba(0, 0, 0, 0.925);
   display: flex;
   color: white;
@@ -394,20 +394,20 @@ nav {
 }
 
 .left-section {
-  width: 20%;
+  flex-basis: 40%;
 }
 
 .left-section span {
-  font-size: 1.1rem;
+  font-size: 0.6rem;
 }
 
 .middle-section {
-  flex-basis: 80%;
+  flex-basis: 20%;
   justify-content: space-around;
 }
 
 .middle-section i {
-  font-size: 2rem;
+  font-size: 0.9rem;
 }
 
 .middle-section i:hover {
@@ -416,10 +416,16 @@ nav {
 }
 
 .right-section {
-  width: 20%;
+  flex-basis: 40%;
   flex-direction: column;
 }
 
 .right-section span {
   padding: 5px;
-} */
+  font-size: 0.5rem;
+}
+
+.right-section span i {
+  padding-left: 2px;
+  font-size: 0.5rem;
+}

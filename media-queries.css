@@ -51,6 +51,25 @@
   .news-wrapper span {
     font-size: 1.2rem;
   }
+
+  /*Lookbook section*/
+  .grid-container {
+    height: 80vh;
+  }
+
+  /*Contact styling */
+
+  .right-section span {
+    font-size: 0.6rem;
+  }
+
+  .right-section span i {
+    font-size: 0.6rem;
+  }
+
+  .left-section span {
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 600px) {
@@ -157,6 +176,29 @@
   .news-wrapper a {
     width: 30%;
   }
+
+  /*Lookbook styling */
+  .grid-container {
+    height: 80vh;
+  }
+
+  /*Contact section*/
+
+  .left-section span {
+    font-size: 0.9rem;
+  }
+
+  .middle-section i {
+    font-size: 1.2rem;
+  }
+
+  .right-section span {
+    font-size: 0.9rem;
+  }
+
+  .right-section span i {
+    font-size: 0.9rem;
+  }
 }
 
 @media (min-width: 800px) {
@@ -225,6 +267,11 @@
   .news-wrapper a {
     width: 20%;
   }
+
+  /*Lookbook section */
+  .grid-container {
+    width: 60%;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -274,6 +321,16 @@
 
   .info p {
     font-size: 1.1rem;
+  }
+
+  /*Lookbook section */
+  .grid-container {
+    width: 60%;
+  }
+
+  /*Contact section*/
+  .middle-section i {
+    font-size: 2rem;
   }
 }
 
@@ -344,6 +401,13 @@
 
   .news-wrapper a {
     padding: 10px;
+  }
+
+  /*Lookbook section*/
+
+  .grid-container {
+    width: 50%;
+    height: 90vh;
   }
 }
 
