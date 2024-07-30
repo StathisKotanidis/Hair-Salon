@@ -66,7 +66,7 @@ nav {
   font-size: 0.6rem;
 }
 
-/*Home section styling (mobile design)*/
+/*Home section  (mobile design)*/
 
 #home {
   min-height: 80vh;
@@ -172,7 +172,7 @@ nav {
   transform: scale(1.2);
 }
 
-/* About section (mobil design)*/
+/* About section (mobile design)*/
 
 #about {
   min-height: 40vh;
@@ -208,17 +208,20 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  overflow: hidden;
 }
 
 .staff-wrapper {
+  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .staff-wrapper img {
-  min-width: 90%;
+  min-width: 100%;
   max-height: 250px;
   border-radius: 5px;
 }
@@ -232,63 +235,70 @@ nav {
   text-align: center;
   position: absolute;
   padding: 10px;
-  bottom: -30px;
+  bottom: -25px;
 }
 
 .staff-description span {
   font-size: 0.7rem;
 }
 
-/* News Section*/
+/* News Section (mobile design)*/
 
-/* #news {
-  height: 50vh;
+#news {
+  min-height: 20vh;
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  align-items: center;
 }
 
 .news-wrapper {
-  width: 85%;
-  height: 90%;
+  width: 100%;
+  max-height: 150px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   background-image: url("images/offer.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
+  padding: 1.5em 0 1.3em 2em;
+  overflow: hidden;
 }
 
-.special-offer {
-  width: 30%;
-  height: 55%;
-  display: flex;
-  flex-direction: column;
+.news-wrapper > span {
   color: white;
-  margin-left: 50px;
+  font-size: 0.7rem;
+  padding: 0 0 1em 0;
 }
 
-.special-offer span {
-  padding-bottom: 30px;
+.news-wrapper h3 span {
+  color: white;
+  font-size: 1.2rem;
 }
 
-.special-offer h3 {
-  font-size: 1.5rem;
-  padding-bottom: 40px;
-  line-height: 1.4;
+.news-wrapper h3 {
+  color: white;
+  max-width: 50%;
+  font-weight: 300;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  padding: 0 0 1em 0;
 }
 
-.special-offer h3 span {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.special-offer a {
+.news-wrapper a {
   width: 40%;
-  color: white;
   background-color: black;
-  padding: 15px;
-} */
+  text-align: center;
+}
+
+.news-wrapper a span {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.news-wrapper a i {
+  color: white;
+  font-size: 0.4rem;
+}
 
 /* Lookbook styling */
 

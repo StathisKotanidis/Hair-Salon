@@ -33,16 +33,23 @@
     font-size: 0.5rem;
   }
 
-  /*About section */
-
+  /*About section*/
   .info p {
     font-size: 1.2rem;
   }
 
-  /*Staff section*/
+  /*News section*/
+  #news {
+    min-height: 30vh;
+  }
 
-  .staff-wraper img {
-    min-width: 100%;
+  .news-wrapper {
+    min-height: 180px;
+    padding: 2em 0 1.5em 2em;
+  }
+
+  .news-wrapper span {
+    font-size: 1.2rem;
   }
 }
 
@@ -116,6 +123,40 @@
   .special-offer-wrapper i {
     font-size: 0.8rem;
   }
+
+  /* Staff styling*/
+  #staff {
+    min-height: 180vh;
+  }
+  .staff-wrapper img {
+    max-height: 300px;
+  }
+
+  /*News Section*/
+  .news-wrapper {
+    width: 90%;
+    min-height: 200px;
+  }
+
+  .news-wrapper h3 span {
+    font-size: 1.2rem;
+  }
+
+  .news-wrapper h3 {
+    font-size: 0.9rem;
+  }
+
+  .news-wrapper a span {
+    font-size: 0.7rem;
+  }
+
+  .news-wrapper a i {
+    font-size: 0.6rem;
+  }
+
+  .news-wrapper a {
+    width: 30%;
+  }
 }
 
 @media (min-width: 800px) {
@@ -177,7 +218,12 @@
   }
 
   .staff-description {
-    bottom: 5px;
+    bottom: -15px;
+  }
+
+  /*News section*/
+  .news-wrapper a {
+    width: 20%;
   }
 }
 
@@ -250,6 +296,9 @@
   }
 
   /*Home section styling*/
+  .our-services-wrapper {
+    width: 20%;
+  }
   .special-offer-wrapper {
     max-width: 30%;
   }
@@ -262,8 +311,39 @@
   }
 
   /*About section styling*/
+  .info img {
+    max-width: 120px;
+  }
+
   .info p {
     font-size: 1.3rem;
+  }
+
+  /*News section */
+  #news {
+    min-height: 40vh;
+  }
+
+  .news-wrapper {
+    min-height: 300px;
+  }
+
+  .news-wrapper > span {
+    font-size: 2rem;
+    padding: 0 0 0.3em 0;
+  }
+
+  .news-wrapper h3 span {
+    font-size: 3rem;
+    padding: 0 0 0.5em 0;
+  }
+
+  .news-wrapper h3 {
+    font-size: 2rem;
+  }
+
+  .news-wrapper a {
+    padding: 10px;
   }
 }
 
