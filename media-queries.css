@@ -298,6 +298,90 @@
   }
 }
 
-/* @media (min-width: 1025px){
+@media (min-width: 1025px) {
+  /* Navbar section styling */
+  .leftside-navbar img {
+    width: 90%;
+  }
+  .middle-navbar a,
+  .middle-navbar i {
+    font-size: 1rem;
+  }
 
-} */
+  .rightside-navbar i,
+  .rightside-navbar span {
+    font-size: 1rem;
+  }
+
+  /* Home section styling */
+
+  .our-services-wrapper {
+    width: 40%;
+  }
+
+  .special-offer-wrapper {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1440px) {
+  /* Navbar section styling */
+
+  .middle-navbar a,
+  .middle-navbar i {
+    font-size: 1.2rem;
+  }
+
+  .rightside-navbar i,
+  .rightside-navbar span {
+    font-size: 1.2rem;
+  }
+
+  /* Home section styling */
+
+  .our-services-wrapper {
+    width: 30%;
+  }
+
+  .special-offer-wrapper {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1600px) {
+  /* Navbar section styling */
+
+  .middle-navbar a,
+  .middle-navbar i {
+    font-size: 1.4rem;
+  }
+
+  .rightside-navbar i,
+  .rightside-navbar span {
+    font-size: 1.4rem;
+  }
+
+  /* Home section styling */
+
+  .our-services-wrapper {
+    width: 30%;
+  }
+
+  .special-offer-wrapper {
+    width: 35%;
+  }
+
+  /* About section styling */
+
+  .info h2 {
+    font-size: 1.5rem;
+  }
+
+  .info p {
+    font-size: 1.3rem;
+  }
+
+  .info img {
+    max-width: 100px;
+  }
+}
