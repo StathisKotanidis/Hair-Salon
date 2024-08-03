@@ -1,3 +1,102 @@
-/* @media (min-width:480px){
+@media (min-width: 480px) {
+  /* Navbar styling */
+
+  .rightside-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 20%;
+  }
+
+  .rightside-navbar i,
+  .rightside-navbar span {
+    font-size: 0.7rem;
+  }
+
+  .middle-navbar {
+    flex-basis: 80%;
+  }
+
+  /* Home section */
+
+  .content-wrapper h1 {
+    font-size: 3rem;
+  }
+
+  .content-wrapper span {
+    font-size: 1.3rem;
+  }
+
+  .our-services-wrapper a,
+  .our-services-wrapper i {
+    font-size: 0.8rem;
+  }
+
+  .special-offer-wrapper > span {
+    font-size: 0.9rem;
+  }
+
+  .special-offer-wrapper p span {
+    font-size: 2rem;
+  }
+
+  .special-offer-wrapper p {
+    font-size: 0.9rem;
+  }
+
+  .special-offer-wrapper span,
+  .special-offer-wrapper i {
+    font-size: 0.8rem;
+  }
+
+  /* About section styling */
+
+  .info h2 {
+    font-size: 1.3rem;
+  }
+
+  .info p {
+    font-size: 0.9rem;
+  }
+
+  .info img {
+    max-width: 90px;
+  }
+
+  /* News section styling */
+
+  .news-wrapper span {
+    font-size: 0.9rem;
+  }
+
+  .news-wrapper h3 span {
+    font-size: 1.5rem;
+  }
+
+  .news-wrapper h3 {
+    font-size: 1rem;
+  }
+
+  .news-wrapper a span,
+  .news-wrapper a i {
+    font-size: 0.8rem;
+  }
+
+  /* Contact section styling */
+
+  .left-section span {
+    font-size: 0.7rem;
+  }
+
+  .middle-section i {
+    font-size: 1.3rem;
+  }
+
+  .right-section span {
+    font-size: 0.6rem;
+  }
+}
+
+/* @media (min-width:600px){
 
 } */
